@@ -1,0 +1,25 @@
+html,body{
+    height: 100%
+}
+footer {
+    height: auto;
+    width: 100%;
+    background: dodgerblue;
+}
+.header-btn {
+    margin: 0 auto;
+}
+.footer-logo,
+.header-logo {
+    display: block;
+    margin: 0px auto;
+}
+footer p a {
+    color: #fff;
+}
+footer ul li {
+    text-align: center;
+}
+footer ul li a {
+    color: #fff;
+}

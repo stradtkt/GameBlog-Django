@@ -1,0 +1,51 @@
+{% load static %}
+<footer class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+            <img src="{% static 'img/logo.png' %}" class="footer-logo" alt="Game Blog Logo" height="100" width="100">
+                <p class="text-white text-center"><i class="fas fa-copyright"></i> 2021, Webkit Development Systems.</p>
+                <p class="text-center">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://google.com"><i class="fab fa-google-plus"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://github.com"><i class="fab fa-github"></i></a>
+                    <a href="https://google.com"><i class="fab fa-google-drive"></i></a>
+                </p>
+        </div>
+        <div class="col-12 col-md-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'pages:home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'pages:about' %}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'pages:contact' %}">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</footer>

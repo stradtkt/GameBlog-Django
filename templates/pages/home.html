@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock %}
+{% block content %}
+    <div class="jumbotron">
+        <img src="{% static 'img/logo.png' %}" class="header-logo" alt="Game Blog Logo" height="250px" width="250px">
+        <p class="lead text-center">Where you can find helpful reviews and tips about the latest games.</p>
+    </div>
+{% endblock %}
